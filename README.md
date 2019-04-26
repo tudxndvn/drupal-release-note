@@ -24,6 +24,8 @@ The document for deploy drupal using composer
   $config_directories['sync'] = 'config/sync';
   $settings['class_loader_auto_detect'] = TRUE;```
 - Update files upload : Replace folder `files` in sites/default/ from old source to web/core/sites/ (new source)
+- Please note when config apache :  set DocumentRoot to folder `web`
+- Run Website
 # III. Note
 ## Updating Drupal Core
 This project will attempt to keep all of your Drupal Core files up-to-date; the 
