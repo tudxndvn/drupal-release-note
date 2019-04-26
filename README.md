@@ -25,7 +25,7 @@ The document for deploy drupal using composer
   $settings['class_loader_auto_detect'] = TRUE;```
 - Update files upload : Replace folder `files` in sites/default/ from old source to web/core/sites/ (new source)
 # III. Note
-##Updating Drupal Core
+## Updating Drupal Core
 This project will attempt to keep all of your Drupal Core files up-to-date; the project drupal-composer/drupal-scaffold is used to ensure that your scaffold files are updated every time drupal/core is updated. If you customize any of the "scaffolding" files (commonly .htaccess), you may need to merge conflicts if any of your modified files are updated in a new release of Drupal core.
 
 Follow the steps below to update your core files.
@@ -35,7 +35,7 @@ Run git diff to determine if any of the scaffolding files have changed. Review t
 Commit everything all together in a single commit, so web will remain in sync with the core when checking out branches or running git bisect.
 In the event that there are non-trivial conflicts in step 2, you may wish to perform these steps on a branch, and use git merge to combine the updated core files with your customized files. This facilitates the use of a three-way merge tool such as kdiff3. This setup is not necessary if your changes are simple; keeping all of your modifications at the beginning or end of the file is a good strategy to keep merges easy.
 
-##How can I apply patches to downloaded modules?
+## How can I apply patches to downloaded modules?
 
 If you need to apply patches (depending on the project being modified, a pull request is often a better solution), you can do so with the composer-patches plugin.
 
@@ -49,3 +49,5 @@ To add a patch to drupal module foobar insert the patches section in the extra s
     }
 }
 ```
+
+> Link refer : https://github.com/drupal-composer/drupal-project
