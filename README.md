@@ -23,8 +23,8 @@ The document for deploy drupal using composer
   $settings['install_profile'] = 'standard';
   $config_directories['sync'] = 'config/sync';
   $settings['class_loader_auto_detect'] = TRUE;
-- Update files upload : Copy folder `files` in sites/default/files from old source to web/core/sites (new source)
-# II. Note
+- Update files upload : Replace folder `files` in sites/default/ from old source to web/core/sites/ (new source)
+# III. Note
 Updating Drupal Core
 This project will attempt to keep all of your Drupal Core files up-to-date; the project drupal-composer/drupal-scaffold is used to ensure that your scaffold files are updated every time drupal/core is updated. If you customize any of the "scaffolding" files (commonly .htaccess), you may need to merge conflicts if any of your modified files are updated in a new release of Drupal core.
 
