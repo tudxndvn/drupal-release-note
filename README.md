@@ -6,7 +6,7 @@ The document for deploy drupal using composer
 - Rename folder source code (E.g : iec-backup)
 # II. Deploy new code
 - Unzip folder new source code
-- cd to Source code directories and run `composer install`
+- `cd` to Source code directories and run `composer install`
 - Setting database:
   open file setting.php (web/sites/default) and change config database . E.g:
     ```$databases['default']['default'] = array (
