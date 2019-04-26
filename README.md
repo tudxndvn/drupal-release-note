@@ -1,2 +1,2 @@
-# iec-release-note
+# drupal-release-note
 The document for deploy drupal using composer
