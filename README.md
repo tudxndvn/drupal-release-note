@@ -1,4 +1,4 @@
-# drupal-release-note
+# drupal-deploy-note
 The document for deploy drupal using composer
 
 # I. Backup database and code
